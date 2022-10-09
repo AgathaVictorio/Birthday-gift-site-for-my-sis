@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#e6ccff, #ffccff);
+    color: #ffffff;
+}
+#header{
+    
+}
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px #262626;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 20%;
+    border: 2px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #ddccff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    font-size: 30px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ddccff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-cute:hover {
+    background-image: url("https://c.tenor.com/NxnXcvTDM84AAAAM/cute-baby-mochi.gif");
+}
+
+#gift-img-special:hover {
+    background-image: url("https://media0.giphy.com/media/QJKu9V1DTvGI0TWdEa/200.gif");
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://i.pinimg.com/originals/e6/b9/63/e6b9635abacfb592e2ae5126575c6e11.gif");
+}
+
+#gift-img-love:hover {
+    background-image: url("https://media2.giphy.com/media/Kg5Q7JSJiV0XgrJVRc/giphy.gif");
+}
+
+#gift-img-h-b:hover {
+    transition: ease-out 1s;
+    animation: wiggle 2s linear infinite;
+    background-image: url("https://www.funimada.com/assets/images/cards/big/bday-501.gif");
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
